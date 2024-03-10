@@ -106,9 +106,9 @@ export default function NewFeedback({
 
   return (
     <div className="newFeedbackContainer">
-      <div>
+      <div className=''>
         <img src="/shared/icon-arrow-left.svg" />
-        <button onClick={() => setOpenNewFeedback(false)}>Go Back</button>
+        <button className='newFeedbackGoBack' onClick={() => setOpenNewFeedback(false)}>Go Back</button>
       </div>
 
       <div className="formContainer">

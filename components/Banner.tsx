@@ -33,7 +33,7 @@ export default function Banner({
   }, [])
 
   return (
-    <div className="headerContainer">
+    <div className="headerContainer bannerImage">
       <h1>
         Game Feedback
         <p>Feedback Form</p>
@@ -44,7 +44,7 @@ export default function Banner({
           </button>
         </div>
       </h1>
-      <Image
+      {/* <Image
         src={
           windowWidth > 800
             ? '/suggestions/desktop/background-header.png'
@@ -53,7 +53,7 @@ export default function Banner({
         fill
         alt="background header"
         priority={true}
-      />
+      /> */}
       <button
         className="mobileHamburgerMenu"
         onClick={() => setOpenMobileMenu(!openMobileMenu)}
